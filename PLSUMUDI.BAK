@@ -1,0 +1,56 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+	float A,B,C;
+	clrscr();
+	printf("Enter The Value A");
+	printf("Enter The Value B");
+	scanf("%f,%f",&A,&B);
+
+	printf("\n1.For ADD:1");
+	printf("\n2.For SUB:2");
+	printf("\n3.For MULTIPLY:3");
+	printf("\n4.For DIV:4");
+	scanf("%f",&C);
+
+	switch(C)
+
+	{
+	case 1:
+
+	{
+	C=A+B;
+	print("%f",&c);
+	break;
+	}
+	{
+	case 2:
+	{
+	C=A-B;
+	print("%f",&c);
+	break;
+	}
+
+	case 3:
+	{
+	C=A*B;
+	print("%f",&c);
+	break;
+	}
+
+	case 4:
+	{
+	C=A/B;
+	print("%f",&c);
+	break;
+	}
+
+	default:
+	{
+	printf("invalid function");
+	}
+
+}

@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+int A,B,C;
+clrscr();
+
+printf("enter no.A");
+scanf("%d",&A);
+printf("enter no.B");
+scanf("%d",&B);
+printf("enter no.C");
+scanf("%d",&C);
+
+if((A>B)&&(A>C))
+printf("A is max");
+else if((B>C)&&(B>A))
+printf("B is max");
+else
+printf("C is max");
+
+getch();
+
+}
