@@ -4,7 +4,7 @@
 void main()
 
 {
-int a,b,c,d,e,n;
+int a,b,c,n;
 
 clrscr();
 printf("enter a");
@@ -13,12 +13,9 @@ printf("enter b");
 scanf("%d",&b);
 printf("enter c");
 scanf("%d",&c);
-printf("enter d");
-scanf("%d",&d);
-printf("enter e");
-scanf("%d",&e);
 
-n=(a+b+c+d+e)/5;
+
+n=(a+b+c)/3;
 
 
 printf("ans=%d",n);
